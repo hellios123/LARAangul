@@ -1,0 +1,78 @@
+/* You can add global styles to this file, and also import other style files */
+body,html,div{
+ box-sizing: border-box
+ }
+
+.hm{
+ 
+ color: white;
+
+ line-height: 8%;
+ border-top: 0.5px solid rgb(151, 148, 148);
+ display:block;
+
+ background-color: rgb(48, 46, 44)
+}
+.fixed1 {
+ position:fixed;
+ top: 10;
+ left: 0;
+ }
+.ss{ padding:17%;
+}
+.row > a:hover{
+text-decoration:none !important;
+}
+#hvr:hover{  text-decoration:none ;
+}
+ p > a:hover{
+
+ text-decoration:none ;
+ }
+
+ a:hover{
+
+  text-decoration:none ;
+  }
+ .ss>p{
+ text-align: center;
+ }
+ button:hover{background-color: rgb(66, 15, 15) !important;}
+
+ .imfix {
+  right:0.4% ;
+  
+ 
+  }
+
+  .sl4 {
+   position:fixed;
+  visibility: visible;
+  right: 40px;
+  top: -400px; 
+  width: 100px;
+  height: 100px;
+   }
+
+
+@keyframes example {
+ 0%   {right:40px; top:50px;}
+ 25%  {right:40px; top:-20px;}
+ 50%  {right:40px; top:-50px;}
+ 75%  {right:40px; top:-70px;}
+ 100% {right:40px; top:-100px;}
+}
+
+/* The element to apply the animation to */
+
+#zg{
+padding-left: 0%;
+padding-right: 0%;
+ background-image: url(assets/homelarge.jpg);
+ background-repeat: no-repeat;
+position: relative;
+
+ 
+}
+
+ 

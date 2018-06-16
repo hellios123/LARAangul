@@ -1,0 +1,19 @@
+<div class="row" style="position: relative;">
+<div class=" bg-danger text-white font-weight-bold text-center " style="width: 100%">WE WILL TAKE CARE OF YOUR</div>
+<table class="table table-sm table-hover table-dark ">
+    <thead>
+      <tr>
+        <th scope="col" class="font-italic">Brand</th>
+        <th scope="col" class="font-italic">Model</th>
+       <th scope="col" class="font-italic">Available</th>
+      </tr>
+    </thead>
+    <tbody *ngIf="connect1.cars  ">
+      <tr *ngFor="let c of connect1.cars ">
+        <td>{{(c)?.Brand }}</td>
+        <td>{{(c)?.Model }}</td>
+        <td>{{(c)?.Available }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
